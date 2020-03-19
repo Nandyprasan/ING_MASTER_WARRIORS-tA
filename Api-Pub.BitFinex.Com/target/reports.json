@@ -1,0 +1,189 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 745355590,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Api to get bitfinex for different ticker names",
+            "match": {
+              "location": "BitfinexStepDefnition.api_to_get_bitfinex_for_different_ticker_names()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "validate bitfinex get request APIs for single argument",
+        "description": "",
+        "id": "pub-bitfinex-feature;validate-bitfinex-get-request-apis-for-single-argument",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1511962030,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user tries to get response for single ticker name",
+            "match": {
+              "location": "BitfinexStepDefnition.user_tries_to_get_response_for_single_ticker_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 297853809,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate the response",
+            "match": {
+              "location": "BitfinexStepDefnition.validate_the_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 240071,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Api to get bitfinex for different ticker names",
+            "match": {
+              "location": "BitfinexStepDefnition.api_to_get_bitfinex_for_different_ticker_names()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "validate bitfinex get request APIs for multiple argument",
+        "description": "",
+        "id": "pub-bitfinex-feature;validate-bitfinex-get-request-apis-for-multiple-argument",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1275159118,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user tries to get response for multiple ticker name",
+            "match": {
+              "location": "BitfinexStepDefnition.user_tries_to_get_response_for_multiple_ticker_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10667239,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "validate the response for multiple argument request",
+            "match": {
+              "location": "BitfinexStepDefnition.validate_the_response_for_multiple_argument_request()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 264533,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Api to get bitfinex for different ticker names",
+            "match": {
+              "location": "BitfinexStepDefnition.api_to_get_bitfinex_for_different_ticker_names()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "validate negative flows",
+        "description": "",
+        "id": "pub-bitfinex-feature;validate-negative-flows",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user tries to get response for invalid request",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "validate the response for invalid request",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "validate the response for null request",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "validate the response for special characters in request",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "pub bitfinex feature",
+    "description": "",
+    "id": "pub-bitfinex-feature",
+    "keyword": "Feature",
+    "uri": "./src/test/java/com/bitfinex/Features/bitfinexApi.feature"
+  }
+]
